@@ -1,0 +1,37 @@
+﻿body {
+    background-color:darkred;
+
+
+}
+
+#naglowek {
+    text-align: center;
+    font-family: Brush Script MT;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#menuleft {
+    width: 25%;
+    height: 500px;
+   
+}
+#menucenter{
+    width: 50%;
+    background-color: lightgrey;
+    text-align: center;
+}
+#menuright{
+    width: 25%;
+    height: 500px;
+    
+}
+.nav {
+}
+.content {
+}
+.footer{
+}

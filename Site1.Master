@@ -1,0 +1,76 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Projekt_CMS.Site1" %>
+
+<!DOCTYPE html>
+<script runat="server">
+
+    protected void ImageButton1_Click(object sender, ImageClickEventArgs e)
+    {
+        
+    }
+</script>
+
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link href="StyleSheet1.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    </head>
+<body>
+    <div id="naglowek">
+        <h1>&nbsp;Koneserzy Tanich Trunków</h1>
+        &nbsp;</div>
+        
+    <form id="form1" runat="server">
+    <a href="NestedMasterPage1.master">NestedMasterPage1.master</a>
+        
+        <a href="NestedMasterPage3.master">NestedMasterPage3.master</a>   
+        <a href="NestedMasterPage4.master">NestedMasterPage4.master</a>
+        <a href="NestedMasterPage5.master">NestedMasterPage5.master</a>
+        <a href="NestedMasterPage6.master">NestedMasterPage6.master</a>
+        <a href="NestedMasterPage7.master">NestedMasterPage7.master</a>
+        <a href="NestedMasterPage8.master">NestedMasterPage8.master</a>
+        <a href="NestedMasterPage9.master">NestedMasterPage9.master</a>
+        <a href="NestedMasterPage10.master">NestedMasterPage10.master</a>
+        <a href="NestedMasterPage11.master">NestedMasterPage11.master</a>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+            </form>
+
+        <main>
+
+                <div id="menuleft">
+
+                </div>
+
+        <div id="menucenter">
+        <p>
+            <asp:ImageButton ID="ImageButton1" runat="server" Height="200px" OnClick="ImageButton1_Click" Width="200px" ImageUrl="~/0374-finlandia-vodka-of-finlandia-gallery-1-973x1395.png" />
+            <asp:ImageButton ID="ImageButton3" runat="server" Height="200px" OnClick="ImageButton1_Click" Width="200px" BorderStyle="None" EnableTheming="True" ImageUrl="~/favpng_single-malt-scotch-whisky-blended-whiskey-single-malt-whisky.png" />
+            <asp:ImageButton ID="ImageButton2" runat="server" Height="200px" OnClick="ImageButton1_Click" Width="200px" ImageUrl="~/NicePng_red-eye-png_823519.png" />
+        </p>
+        <p>
+            <asp:ImageButton ID="ImageButton4" runat="server" Height="200px" OnClick="ImageButton1_Click" Width="200px" ImageUrl="~/vippng.com-rum-png-759705.png" />
+            <asp:ImageButton ID="ImageButton5" runat="server" Height="200px" OnClick="ImageButton1_Click" Width="200px" ImageUrl="~/pngegg.png" />
+            <asp:ImageButton ID="ImageButton6" runat="server" Height="200px" OnClick="ImageButton1_Click" Width="200px" />
+        </p>
+        <p>
+            <asp:ImageButton ID="ImageButton7" runat="server" Height="200px" OnClick="ImageButton1_Click" Width="200px" />
+            <asp:ImageButton ID="ImageButton8" runat="server" Height="200px" OnClick="ImageButton1_Click" Width="200px" />
+            <asp:ImageButton ID="ImageButton9" runat="server" Height="200px" OnClick="ImageButton1_Click" Width="200px" />
+            </p>
+        </div>
+            
+                <div id="menuright">
+
+                </div>
+
+            </main>
+    
+</body>
+</html>
